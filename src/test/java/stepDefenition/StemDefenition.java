@@ -37,6 +37,9 @@ public class StemDefenition {
         System.out.println(str2);
         System.out.println("this is password");
         System.out.println("this is updated code");
+        System.out.println("This is second type update");
+        System.out.println("This is thired update");
+        
 
     }
     @When("User click on loging button")
