@@ -33,7 +33,10 @@ public class StemDefenition {
     @When("User enter valid username {string} and password {string}")
     public void user_enter_valid_username_and_password(String str1, String str2) {
         System.out.println(str1);
+        System.out.println("this is user name");
         System.out.println(str2);
+        System.out.println("this is password");
+        System.out.println("this is updated code");
 
     }
     @When("User click on loging button")
