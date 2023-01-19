@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="0.583">
+    <testcase classname="Application login" name="Home page default login" time="0.061">
+        <system-out><![CDATA[Given User launch browser...................................................passed
+When User enter URL.........................................................passed
+Then Home page will display.................................................passed
+Given User is on login page.................................................passed
+When User enter valid username "mahesh" and password "1234".................passed
+And User click on loging button.............................................passed
+Then Title will display.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application login" name="Home page default login 2" time="0.023">
+        <system-out><![CDATA[Given User launch browser...................................................passed
+When User enter URL.........................................................passed
+Then Home page will display.................................................passed
+Given User is on login page.................................................passed
+When User enter "mahesh" in user field......................................passed
+And user enter "abc" in password field......................................passed
+And user click on signin buttern............................................passed
+Then faild login will display...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application login" name="Home page default login 3" time="0.035">
+        <system-out><![CDATA[Given User launch browser...................................................passed
+When User enter URL.........................................................passed
+Then Home page will display.................................................passed
+Given User is on login page.................................................passed
+When User enter "Viraj" in user field.......................................passed
+And user enter "143" in password field......................................passed
+And user click on signin buttern............................................passed
+Then faild login will display...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application login" name="Home page default login 4" time="0.042">
+        <system-out><![CDATA[Given User launch browser...................................................passed
+When User enter URL.........................................................passed
+Then Home page will display.................................................passed
+Given User is on login page.................................................passed
+When User enter "Pandura" in user field.....................................passed
+And user enter "456" in password field......................................passed
+And user click on signin buttern............................................passed
+Then faild login will display...............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
